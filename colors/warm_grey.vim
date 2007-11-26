@@ -57,13 +57,14 @@ hi Float     guifg=#204000
 "hi Statement  guifg=#607080 gui=bold
 
 " . D: debug, mixin, scope, throw, Python: def
-hi Statement   guifg=#343230 gui=bold
+hi Statement   guifg=#607080 gui=bold
 hi Operator  guifg=#747270 gui=bold
 " HTML: arguments
-hi Type       guifg=#202020 gui=none
+"hi Type       guifg=#202020 gui=none
+hi Type        guifg=#606060 gui=bold
 " Python: Standard exceptions, True&False
-hi Structure  guifg=#444240 gui=underline,bold
-hi Function   guifg=#545250 gui=bold
+hi Structure  guifg=#405060 gui=underline,bold
+hi Function   guifg=#203040 gui=bold
 
 
 hi Macro   guifg=#545250 gui=none
@@ -92,9 +93,9 @@ hi Special    guifg=#602000 gui=none
 hi SpecialKey guifg=#c4c2c0 guibg=#e4e2e0 gui=italic,bold  
 
 " Diff
-hi DiffChange guifg=NONE guibg=#e0e0e0 gui=italic,bold
-hi DiffText guifg=NONE guibg=#f0c8c8 gui=italic,bold
-hi DiffAdd guifg=NONE guibg=#c0e0d0 gui=italic,bold
-hi DiffDelete guifg=NONE guibg=#f0e0b0 gui=italic,bold
+hi DiffChange guifg=NONE guibg=#e4e2e0 gui=italic
+hi DiffText guifg=NONE guibg=#f0e0a0 gui=none
+hi DiffAdd guifg=NONE guibg=#c0e0d0 gui=bold
+hi DiffDelete guifg=NONE guibg=#f0a0a0 gui=italic,bold
 
 
